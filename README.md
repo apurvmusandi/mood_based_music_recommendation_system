@@ -36,17 +36,17 @@ The system reads music data from a CSV file and dynamically recommends songs usi
 ---
 
 ## 🗂️ Project Structure
-MRS/
-│── app.py
-│── mood_tracks.csv
-│── process_dataset.py
-│── requirements.txt
-│
-├── templates/
-│ └── index.html
-│
-└── static/
-└── style.css
+   MRS/
+   │── app.py
+   │── mood_tracks.csv
+   │── process_dataset.py
+   │── requirements.txt
+   │
+   ├── templates/
+   │ └── index.html
+   │
+   └── static/
+   └── style.css
 
 ---
 
@@ -68,43 +68,26 @@ MRS/
    git clone https://github.com/apurmusandi/MRS.git
    cd MRS
 2. Install dependencies:
-
-3. pip install -r requirements.txt
-
-
-4. Run the application:
-
-python app.py
-
-
-5. Open browser and visit:
-
-http://127.0.0.1:5000
+   ```pip install -r requirements.txt
+3. Run the application:
+   ```python app.py
+4. Open browser and visit:
+   ```http://127.0.0.1:5000
 
 📚 Learning Outcomes
-
 Understanding Flask routing and request handling
-
 Integrating frontend with backend
-
 Using Pandas for data filtering
-
 Deploying Python web apps on cloud platforms
-
 Managing dependencies using requirements.txt
 
 👨‍🎓 Academic Information
-
 Project Type: Micro Project
-
 Guide: Prof. P. B. Patil
-
 Developed By: Apurv M.
-
 Course: B.Tech (CSE)
 
 📄 License
-
 This project is created for educational purposes only.
 
 ---
