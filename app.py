@@ -18,5 +18,7 @@ def recommend():
     songs = matched.sample(n=min(5, len(matched)))
     return jsonify([f"{row['name']} - {row['artists']}" for _, row in songs.iterrows()])
 
+# if __name__ == "__main__":
+#     app.run(debug=True)
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
