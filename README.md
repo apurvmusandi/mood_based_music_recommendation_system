@@ -68,26 +68,32 @@ The system reads music data from a CSV file and dynamically recommends songs usi
    git clone https://github.com/apurmusandi/MRS.git
    cd MRS
 2. Install dependencies:
-   ```pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 3. Run the application:
-   ```python app.py
+   ```bash
+   python app.py
 4. Open browser and visit:
-   ```http://127.0.0.1:5000
+   ```bash
+   http://127.0.0.1:5000
 
-📚 Learning Outcomes
-Understanding Flask routing and request handling
-Integrating frontend with backend
-Using Pandas for data filtering
-Deploying Python web apps on cloud platforms
-Managing dependencies using requirements.txt
+📚 Learning Outcomes<br>
 
-👨‍🎓 Academic Information
-Project Type: Micro Project
-Guide: Prof. P. B. Patil
-Developed By: Apurv M.
-Course: B.Tech (CSE)
+-Understanding Flask routing and request handling<br>
+-Integrating frontend with backend<br>
+-Using Pandas for data filtering<br>
+-Deploying Python web apps on cloud platforms<br>
+-Managing dependencies using requirements.txt<br>
+
+👨‍🎓 Academic Information<br>
+
+-Project Type: Micro Project<br>
+-Guide: Prof. P. B. Patil<br>
+-Developed By: Apurv M.<br>
+-Course: B.Tech (CSE)<br>
 
 📄 License
+
 This project is created for educational purposes only.
 
 ---
